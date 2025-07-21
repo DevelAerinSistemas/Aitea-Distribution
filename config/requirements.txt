@@ -1,0 +1,5 @@
+#communication
+redis==5.0.2
+
+#logs
+loguru==0.7.2

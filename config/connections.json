@@ -1,0 +1,18 @@
+{
+    "redis": {
+        "sender": {
+            "host": "myh0st",
+            "port": 1111,
+            "password": "my_p4ssw0rd",
+            "channel_to_listen": "files_to_send"
+        },
+        "receiver": {
+            "host": "myh0st",
+            "port": 1111,
+            "password": "my_p4ssw0rd",
+            "channel_to_listen": "files_to_check",
+            "key_to_publish": "files_to_receive"
+        }
+    }
+}
+

@@ -1,0 +1,19 @@
+{
+  "connections_path": "./config/connections.json",
+  "logging": {
+    "level": "debug",
+    "rotation": "500 MB",
+    "retention": "10 days",
+    "max_size": "10 GB",
+    "paths": {
+      "aitea_sender": "/var/log/aitea/aitea_distribution/aitea_sender/",
+      "aitea_receiver": "/var/log/aitea/aitea_distribution/aitea_receiver/"
+    }
+  },
+  "paths_to_save": {
+      "json": "/opt/aitea-distribution",
+      "pkl": "/opt/aitea-distribution",
+      "txt": "/opt/aitea-distribution",
+      "so": "/opt/aitea-distribution"
+  }
+}
